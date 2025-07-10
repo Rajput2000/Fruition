@@ -1,9 +1,15 @@
+# Exported from Render on 2025-07-10T17:13:51Z
 services:
   - type: web
-    name: fastapi-app
+    name: Fruition
     runtime: python
-    buildCommand: ""
-    startCommand: ./start.sh
-    env: python
+    repo: https://github.com/Rajput2000/Fruition
     plan: free
+    envVars:
+      - key: GOOGLE_API_KEY
+        sync: false
     region: oregon
+    buildCommand: pip install -r requirements.txt
+    startCommand: ./start.sh
+    autoDeployTrigger: commit
+version: "1"
