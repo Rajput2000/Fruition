@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: fastapi-app
+    runtime: python
+    buildCommand: ""
+    startCommand: ./start.sh
+    env: python
+    plan: free
+    region: oregon

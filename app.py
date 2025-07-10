@@ -63,6 +63,6 @@ async def chat(message: ChatMessage):
     return {"response": response}
 
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("app:app", reload=True)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run("app:app", reload=True)
