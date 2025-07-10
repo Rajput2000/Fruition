@@ -177,7 +177,7 @@ The `--reload` flag enables auto-reloading upon code changes, which is useful fo
 
 
 #### ▶️ Access the Application
-Once the server is running, open your web browser and go to [http://127.0.0.1:8000](http://127.0.0.1:8000) (or the address indicated in your terminal). You should see the Fruit Classifier application interface.
+Once the server is running, open your web browser and go to [[http://127.0.0.1:8000](http://127.0.0.1:8000)](https://fruition.onrender.com/) (or the address indicated in your terminal). You should see the Fruit Classifier application interface.
 
 
 
